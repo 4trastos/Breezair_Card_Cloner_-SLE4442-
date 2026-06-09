@@ -23,8 +23,8 @@ pip install pyscard
 | Script | Descripción |
 |---|---|
 | `read_memory.py` | Lee los 256 bytes de una tarjeta y muestra el volcado completo |
-| `generar_estructura.py` | Genera el archivo `estructura_maquina.bin` con los datos de la original |
-| `escribir_tarjeta.py` | Escribe el `.bin` en una tarjeta nueva en blanco |
+| `generate_structure.py` | Genera el archivo `estructura_maquina.bin` con los datos de la original |
+| `write_card.py` | Escribe el `.bin` en una tarjeta nueva en blanco |
 | `new_card.py` | Diagnóstico: comprueba si una tarjeta nueva está desbloqueada |
 
 ---
@@ -41,14 +41,14 @@ Comprueba que los datos de ADDR 032, 048 y 064 son correctos.
 ### Paso 2 — Generar el archivo de datos
 Sin tarjeta (o con cualquiera):
 ```bash
-python3 generar_estructura.py
+python3 generate_structure.py
 ```
 Genera `estructura_maquina.bin` con los datos a escribir.
 
 ### Paso 3 — Escribir en la tarjeta nueva
 Pon la tarjeta **nueva en blanco** en el lector:
 ```bash
-python3 escribir_tarjeta.py
+python3 write_card.py
 ```
 Cada byte escrito correctamente aparece con ✅.
 
