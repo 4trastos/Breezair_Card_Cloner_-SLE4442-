@@ -1,8 +1,8 @@
-# 🃏 Clonador de Tarjetas Breezair (SLE4442)
+# 🃏 Clonador de Tarjetas (SLE4442)
 
-Herramientas para leer y clonar las tarjetas de memoria de equipos **Australair / Breezair** usando un lector **ACS ACR39U** en macOS.
+Herramientas para leer y clonar las tarjetas de memoria de  usando un lector **ACS ACR39U** en macOS.
 
-> Desarrollado en Australair España para reemplazar tarjetas descatalogadas de configuración de máquina.
+> Desarrollado para reemplazar tarjetas descatalogadas de configuración de máquina.
 
 ---
 
